@@ -1,0 +1,61 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #ffe;
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    header {
+      width: 1380px;
+      height: 133px;
+      background: yellow;
+      padding: 0 30px 0 30px;
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+      }
+    }
+
+    main {
+      width: 1380px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      background: green;
+
+      section {
+        width: 1200px;
+        background: #ffe;
+        padding: 60px 30px 30px 30px;
+
+        .card-game {
+          display: flex;
+          justify-content: space-around;
+
+          .card-img {
+            img {
+              width: 160px;
+              height: 260px;
+            }
+            .card-content {
+              width: 260px;
+              height: 80px;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
